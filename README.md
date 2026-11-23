@@ -1,31 +1,29 @@
-# Blockbound Bed Wars
+# Block Wars
 
-A small, original browser-playable block-arena prototype inspired by the broad BedWars genre. It is not affiliated with Bloxd.io and does not reproduce Bloxd.io's assets or exact map. The public repository name is `school-math-practice`, but this project is explicitly a Bed Wars-style game prototype; the title and UI disclose that.
+A polished, browser-playable bed-defense and bridging prototype.
 
-## Run it
+## Run
 
-Open `index.html` in a modern desktop browser. No build tools or dependencies are needed.
+Open `index.html`, or enable GitHub Pages from the repository's `main` branch.
 
-## Play
+## Controls
 
-- **WASD / arrow keys** — move; **Shift** — sneak; **Space** — hop.
-- **Right-click** — place the selected block on an empty nearby tile, including across the void.
-- **Left-click** — attack the rival when close.
-- **E** — break a nearby placed block.
-- **1–4** — select wool, wood, stone, or glass; **Q** — open/close the shop.
-- Start with a layered wool/wood/stone bed defense. Gather coins by breaking blocks or defeating the rival, then spend them on supplies, healing, or a sword upgrade.
+- **WASD / arrow keys** — movement
+- **Shift** — sneak; held while moving, pressing **R** will place ahead repeatedly for speed-bridge practice
+- **Space** — jump
+- **R** — place the selected block ahead
+- **F** — break the block ahead
+- **Left mouse** — sword attack
+- **1–4** — select wool, wood, stone, or glass
+- **Q** — open the item shop
 
-The first version is a lightweight prototype: the arena is a 2D isometric illustration, bridging is grid-based block placement, and PvP is a simple rival-bot duel. It does not claim exact parity with Bloxd.io's mechanics, layout, controls, or block models.
+## Features
 
-## Reference videos discussed
+- Original isometric block arena
+- Cyan/red bed islands and layered bed defenses
+- Wool, wood, stone, glass, sword upgrades, and healing
+- Forward block placement for bridging practice
+- Sneak placement mode while holding Shift
+- Rival AI, health bars, bed status, coins, and match reset
 
-These community videos were suggested as visual inspiration for bridging and match flow:
-
-- [The Best Bloxd.io Bedwars Bridging Methods](https://www.youtube.com/watch?v=3ITfB49_pc8)
-- [How to SPEEDBRIDGE on Bloxd io!](https://www.youtube.com/watch?v=jp_xZSb5wEo)
-- [All 50 Bridging Methods in Bloxd.io!](https://www.youtube.com/watch?v=Ok0Dvc6ON80)
-- [How To Actually Play BedWars In Bloxd.io](https://www.youtube.com/watch?v=a3bmtmvYDlo)
-
-Controls and bed-defense background: [Player Controls wiki](https://bloxd-io.fandom.com/wiki/Player_Controls) · [Bedwars tutorial wiki](https://bloxd-io.fandom.com/wiki/Bedwars/Tutorial).
-
-These are references, not a claim that the prototype copies the game's exact implementation. All visuals here are made from original canvas shapes.
+> This project is an original implementation inspired by the broad BedWars genre. It does not contain Bloxd.io source code, proprietary assets, exact maps, or exact server-side mechanics.
