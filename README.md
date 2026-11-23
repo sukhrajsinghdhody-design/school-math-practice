@@ -1,22 +1,26 @@
-# Block Wars
+# Three.js 3D Voxel Block-Game Arena
 
-A small first-person voxel Bed Wars-style browser game. It uses original procedural block geometry and is not affiliated with Bloxd.io.
+A 3D first-person voxel arena based on the MIT-licensed starter code supplied for this repository.
 
 ## Run
 
-Open `index.html` in a modern browser with internet access (Three.js is loaded from jsDelivr). For a stable local run, serve the repository with any static web server, e.g. `python -m http.server`.
+Open through a static HTTP server:
+
+```bash
+python3 -m http.server 8080
+```
+
+Then visit `http://localhost:8080`.
 
 ## Controls
 
-- **WASD / arrows** — move; mouse — look around (click the game to capture the pointer)
-- **Space** — jump; **Shift** — sneak/walk slowly
-- **Left click** — break blocks / attack; **right click** — place the selected block on the face you aim at
-- **1–4** — wool, wood, stone, glass; **Q** — shop; **Esc** — release mouse
+- **WASD** — move
+- **Mouse** — look
+- **Space** — jump
+- **Shift** — sprint
+- **Left click** — break a block
+- **Right click** — place a block
+- **1–5** — choose a block
+- **Esc** — release the mouse
 
-## Current gameplay
-
-- First-person 3D arena with team islands, center island, void, and block-by-block bridging
-- Layered beds, destructible defense blocks, bed hit points, respawns while your bed survives
-- Rival AI, sword combat, a timed coin generator, and a simple shop
-
-The public repository suggested by the user, `Isaac-digangi/Bloxd.io-Codes`, contains community scripts for Bloxd.io world lobbies (such as practice-lobby and combat-related scripts), not the BedWars game source. Its repository has no declared license. This implementation therefore does not copy its code; it is a fresh, original browser game.
+This is an original voxel arena, not Bloxd.io or its proprietary game code.
